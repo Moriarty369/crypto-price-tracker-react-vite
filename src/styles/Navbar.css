@@ -1,0 +1,85 @@
+.nav-container {
+  width: 100%;
+  background-color: #191919;
+}
+  
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; 
+}
+  
+  /* Estilos del logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+  
+
+  
+
+.title-container {
+  color:antiquewhite; 
+  height: 100px;
+  width: 300px;
+  text-align: center; 
+  margin: auto;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 1.5rem sans-serif;
+  will-change: transform;
+}
+
+.title-container::before,
+.title-container::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  display: block;
+  background-color: #FB8B24;
+  transition: all 250ms ease-in-out;
+}
+
+.title-container::before {
+  width: 6px;
+  height: 100px;
+  box-shadow: 298px 0 #FB8B24;
+}
+
+.title-container::after {
+  height: 4px;
+  width: 300px;
+  box-shadow: 0 98px #FB8B24;
+}
+
+.title-container:hover::before {
+  left: -10px;
+  box-shadow: 318px 0 #FB8B24;
+}
+
+.title-container:hover::after {
+  top: -10px;
+  box-shadow: 0 118px #FB8B24;
+}
+
+.title-container:hover {
+  transform: scale(1.1);
+  background-color: #e07d00;
+}
+
+
+.logo-container:hover {
+  transform: scale(1.8);
+ 
+}
+ 

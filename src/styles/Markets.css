@@ -1,0 +1,30 @@
+:root {
+	--color-primario: #041C32;
+	--color-secundario: #04293A;
+	--color-terciario: #064663;
+	--color-destacado: #ECB365;
+}
+  
+  /* Estilos generales para la tabla */
+table {
+	width: 90%;
+	margin: auto;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+  
+
+.table-header {
+	width: 100%;
+	background-color: #f2f2f2;
+	text-align: left;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	background-color: var(--color-secundario);
+	color:white;
+
+}
+
+

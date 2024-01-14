@@ -1,0 +1,77 @@
+.subtitle-container {
+	font-size: xx-large;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	background: linear-gradient(47deg, #5f0f40, #9a031e, #e36414, #fb8b24);
+	background-size: 800% 800%;
+	-webkit-animation: AnimationName 17s ease infinite;
+	-moz-animation: AnimationName 17s ease infinite;
+	animation: AnimationName 17s ease infinite;
+}
+	
+@-webkit-keyframes AnimationName {
+	0%{background-position:83% 0%}
+	50%{background-position:18% 100%}
+	100%{background-position:83% 0%}
+}
+
+@-moz-keyframes AnimationName {
+	0%{background-position:83% 0%}
+	50%{background-position:18% 100%}
+	100%{background-position:83% 0%}
+}
+
+@keyframes AnimationName {
+	0%{background-position:83% 0%}
+	50%{background-position:18% 100%}
+	100%{background-position:83% 0%}
+}
+
+a {
+	/* Restablecer todos los estilos a los valores predeterminados */
+	color: inherit;
+	text-decoration: none;
+}
+  
+
+
+.coin-name {
+	margin-right: 5px;
+
+}
+
+.coin-symbol {
+	font-size:xx-small;
+}
+
+
+.trending-info-container {
+width: 80%;
+margin: 4px auto;
+padding: 20px;
+z-index: 999;
+background-color: #FAF0E4;
+}
+
+.trending-info-container:hover {
+	background-color: #9A031E;
+}
+
+.coin-container {
+display: flex;
+align-items: center;
+gap: 1;
+}
+
+.coin-index {
+font-size: large;
+
+}
+
+.coin-img {
+width: 2.5rem;
+margin: 0px 8px; 
+
+}
+

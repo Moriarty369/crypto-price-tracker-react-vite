@@ -1,0 +1,107 @@
+.coin-info {
+  background-color: gray;
+	width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid var(--color-primario);
+  background-color: var(--color-destacado);
+}
+
+.coin-info:hover {
+  background-color: var(--color-terciario);
+  color: whitesmoke;
+}
+
+.coin-info-inner {
+  width: 150px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.coin-img {
+  width: 30px;
+  height: 30px;
+}
+
+.coin-title {
+	display: flex;
+	align-items: center;
+}
+
+.coin-symbol {
+	margin-left: 0.5rem;
+	font-size: small;
+}
+
+.coin-price {
+  margin-left: 25px;
+  margin-right: 30px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.high-price, .low-price {
+  margin: auto;
+}
+
+.trending-arrow {
+	margin-left: auto;
+  padding-right: 20px;
+}
+
+.price-down {
+  color: red;
+	font-size: large;
+}
+
+.price-up {
+  color: green;
+	font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Asegúrate de aplicar estos estilos a tu componente de estilo de hoja de estilos (CSS) */
+
+
+
+
+
+
+
+.coin-price,
+.trending-arrow,
+.trending-price {
+  text-align: center; /* Alinea el contenido al centro si es necesario */
+}
+
+.price-down,
+.price-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trending-arrow {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+

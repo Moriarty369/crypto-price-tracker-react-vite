@@ -1,11 +1,23 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Detail from './pages/Detail'
+import Navbar from './components/Navbar'
+
+// import ParticlesBg from './components/ParticlesBg'
 
 function App() {
 
 
   return (
-    <>
-    <h1 className='text-center'>Holis</h1>
-    </>
+    
+    <BrowserRouter>
+    <Navbar />
+    {/* <ParticlesBg /> */}
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/coin/:id' element={<Detail />}/>
+    </Routes>
+    </BrowserRouter>
   )
 }
 
